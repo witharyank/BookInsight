@@ -4,7 +4,7 @@ BookInsight is a professional, full-stack AI-powered document intelligence platf
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated Book Data Collection**: Scrapes, parses, and normalizes book catalogs into structured datasets.
 - **Book Listing Dashboard**: A dynamic, responsive interface to browse and filter available titles visually.
@@ -19,7 +19,7 @@ BookInsight is a professional, full-stack AI-powered document intelligence platf
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### **Backend**
 - **Framework**: Python, Django, Django REST Framework
@@ -39,7 +39,7 @@ BookInsight is a professional, full-stack AI-powered document intelligence platf
 
 ---
 
-## 📸 Platform Interface
+## Platform Interface
 
 ### Dashboard
 ![Dashboard](img.png)
@@ -52,7 +52,7 @@ BookInsight is a professional, full-stack AI-powered document intelligence platf
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 The repository is modularly structured, strictly separating the client-side presentation from the server-side API and AI logic:
 
@@ -78,7 +78,7 @@ BookInsight/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Model Inference (LM Studio)
 1. Install [LM Studio](https://lmstudio.ai/) and download a capable instruct model (e.g., Llama-3 8B or Mistral 7B).
@@ -124,7 +124,7 @@ The application will be accessible at `http://localhost:5173`.
 
 ---
 
-## 📚 API Documentation
+## API Documentation
 
 The backend exposes fully scalable REST endpoints to serve the client and manage the RAG system.
 
@@ -138,7 +138,7 @@ The backend exposes fully scalable REST endpoints to serve the client and manage
 
 ---
 
-## 🧠 AI / RAG Architecture
+## AI / RAG Architecture
 
 BookInsight implements an advanced, self-hosted Artificial intelligence reasoning pipeline:
 
@@ -150,7 +150,7 @@ BookInsight implements an advanced, self-hosted Artificial intelligence reasonin
 
 ---
 
-## 🧪 Sample Questions & Answers
+## Sample Questions & Answers
 
 The platform's intelligence can be validated using the following conversational queries:
 
@@ -165,7 +165,7 @@ The platform's intelligence can be validated using the following conversational 
 
 ---
 
-## 📊 Testing Data & Validation
+## Testing Data & Validation
 
 ### API Backend Evaluation
 Test the endpoints via cURL or Postman to ensure database integrity and networking context.
@@ -186,7 +186,7 @@ curl -X POST http://localhost:8000/api/ask/ \
 
 ---
 
-## 🌟 Why This Project Stands Out
+## Why This Project Stands Out
 
 BookInsight moves beyond basic CRUD applications by implementing state-of-the-art enterprise paradigms:
 - **Privacy First**: Complete local inference via LM Studio means that proprietary or sensitive book intelligence is never exposed to third-party endpoints.
