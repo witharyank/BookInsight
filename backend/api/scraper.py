@@ -36,13 +36,17 @@ def scrape_books():
         elif 'Four' in rating_classes: rating = 4.0
         elif 'Five' in rating_classes: rating = 5.0
 
+        img_src = article.find('img')['src']
+        cover_image = requests.compat.urljoin(url, img_src)
+
         book, created = Book.objects.get_or_create(
             title=title,
             defaults={
-                'author': 'Unknown Author', # The site doesn't have authors explicitly on the list page
+                'author': '', # The site doesn't have authors explicitly on the list page
                 'rating': rating,
                 'description': description,
-                'url': book_url
+                'url': book_url,
+                'cover_image': cover_image
             }
         )
         books_data.append(book)
